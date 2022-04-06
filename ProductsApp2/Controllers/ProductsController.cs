@@ -12,9 +12,9 @@ namespace ProductsApp2.Controllers
 
         Product[] products = new Product[]
         {
-            new Product { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
-            new Product { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
-            new Product { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
+            new Product { Id = 1, Name = "Chicken Soup", Category = "Food", Price = 5 },
+            new Product { Id = 2, Name = "Pencil", Category = "Office Supply", Price = 10 },
+            new Product { Id = 3, Name = "Elden Ring", Category = "Game", Price = 15 }
         };
 
         public ProductsController()
